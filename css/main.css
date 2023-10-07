@@ -5,7 +5,7 @@
 }
 body{
     width: 99%; /* comprimento */
-    height: 100%; /* altura */
+    height: 60%; /* altura */
     display: flex;
     justify-content: center;
     background-color: rgb(230, 42, 0);
