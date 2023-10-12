@@ -26,6 +26,7 @@ body{   /* corpo do texto */
     font-weight: 700;   /* altura da fonte */
     color: rgba(252, 252, 252, 0.986);  /* cor do nome da "img" */
     font-family: Arial, Helvetica, sans-serif;  /* tipo da fonte */
+    text-shadow: 7px 7px 15px rgb(0, 0, 0);
 }
 .redes-sociais{
     display: flex;  /* aonde/como pode ser visualizado */
@@ -90,5 +91,6 @@ h2{
     text-align: center;
     margin-top: 100px;
     color: rgb(255, 255, 255);
+    font-size: 40px;
 
 }
