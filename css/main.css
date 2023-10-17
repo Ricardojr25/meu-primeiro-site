@@ -14,19 +14,19 @@ body{   /* corpo do texto */
 }
 .imagem img{    /* img foto do site */
     width: 600px;   /* tamanho */
-    border-radius: 100px;   /* arredondamento da borda */
+    border-radius: 40px;   /* arredondamento da borda */
     margin-top: 30px;   /* distancia entre a imagem e o topo do site */
-    box-shadow: 7px 7px 15px rgb(0, 0, 0);
+    box-shadow: 0px 0px 15px rgb(0, 162, 255);
 }
 .nome {
-    margin-top: 25px;   /* distancia entre a imagem e o topo do site */
+    margin-top: 30px;   /* distancia entre a imagem e o topo do site */
     display: flex;  /* aonde/como pode ser visualizado */
     justify-content: center;    /* posicionamento */
     font-size: 32px;    /* tamanho/grossura da fonte */
     font-weight: 700;   /* altura da fonte */
     color: rgba(252, 252, 252, 0.986);  /* cor do nome da "img" */
     font-family: Arial, Helvetica, sans-serif;  /* tipo da fonte */
-    text-shadow: 7px 7px 15px rgb(0, 0, 0);
+    text-shadow: 9px 5px 7px rgb(0, 0, 0);
 }
 .redes-sociais{
     display: flex;  /* aonde/como pode ser visualizado */
@@ -54,11 +54,10 @@ body{   /* corpo do texto */
     text-align: center;     /* alinhamento do texto */
     font-size: 20px;    /* tamanho/grossura da fonte */
     border-radius: 30px;    /* arredondamento da borda */
-    background-color: rgb(0, 0, 0);     /* cor do fundo dos ícones */
+    background-color: rgb(9, 112, 159);     /* cor do fundo dos ícones */
     color: rgb(255, 255, 255);  /* cor dos ícones */
     cursor: pointer;
 }
-
 .ícone span a {
     list-style: none;   /* estilo de linha */
     font-family: 'Times New Roman', Times, serif;   /* tipo da fonte */
@@ -72,26 +71,61 @@ body{   /* corpo do texto */
     width: 125px;   /* tamanho */
     background-color: rgb(0, 162, 255);     /*fundo dos nomes das redes sociais */
 }
-.texto{ /* tetxo "sobre mim"*/
+.texto{ /* texto "sobre mim"*/
     display: flex;
+    position: relative; /* sua estrutura pode mudar, mas seu conteúdo não */
     justify-content: center;
     align-items: center;
-    margin-top: 25px;
-    margin-left: 15px;
-    width: 500px;
-    height: 50px;
+    margin: 80px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    width: 700px;
+    height: 200px;
+    padding: 50px;
     border-radius: 15px;
     padding: 35px 40px 35px 35px;
     color: rgb(255, 255, 255);
-    background: rgb(11, 77, 108);
+    background: rgb(3, 57, 83);
     overflow: hidden;
-    box-shadow: 7px 7px 15px rgb(0, 0, 0);
+    box-shadow: 0px 0px 7px black;
 }
-h2{
+.sobre-mim{
+    position: absolute;
+    top: -80px;
+    /* transform: translate. valor em % */
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     margin-top: 100px;
     color: rgb(255, 255, 255);
-    font-size: 40px;
-    text-shadow: 7px 7px 15px rgb(0, 0, 0);
-
+    font-size: 30px;
+    line-height: 35px;
+}
+.linguagem{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(225, 225, 225);
+    text-shadow: 5px 5px 5px black;
+}
+.projetos {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.projetos img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 35px;
+    width: 250px;
+    background: rgb(0, 162, 255);
+    color: white;
+    box-shadow: 0px 0px 7px black;
+    border-radius: 10px;
 }
