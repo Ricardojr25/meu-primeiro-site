@@ -16,7 +16,7 @@ body{   /* corpo do texto */
     width: 650px;   /* tamanho */
     border-radius: 40px;   /* arredondamento da borda */
     margin-top: 30px;   /* distancia entre a imagem e o topo do site */
-    box-shadow: 0px 0px 15px rgb(0, 162, 255);
+    box-shadow: 0px 0px 30px rgb(166, 222, 255);
 }
 .nome {
     margin-top: 30px;   /* distancia entre a imagem e o topo do site */
@@ -83,12 +83,12 @@ body{   /* corpo do texto */
     width: 700px;
     height: 200px;
     padding: 50px;
-    border-radius: 15px;
+    border-radius: 40px 40px 40px 0px;
     padding: 35px 40px 35px 35px;
     color: rgb(255, 255, 255);
     background: rgb(3, 57, 83);
     overflow: hidden;
-    box-shadow: 0px 0px 7px black;
+    box-shadow: 0px 0px 10px black;
 }
 .sobre-mim{
     position: absolute;
@@ -102,30 +102,82 @@ body{   /* corpo do texto */
     font-size: 30px;
     line-height: 35px;
 }
-.linguagem{
+.subtitulo{
     display: flex;
+    font-weight: 600;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 30x;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(225, 225, 225);
     text-shadow: 5px 5px 5px black;
 }
-.projetos {
+.linguagem {
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
-.projetos img{
+.linguagem img{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 25px;
     margin-left: 25px;
-    margin-top: 35px;
-    width: 250px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
     background: rgb(0, 162, 255);
     color: white;
     box-shadow: 0px 0px 7px black;
     border-radius: 10px;
+}
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(225, 225, 225);
+    text-shadow: 5px 5px 5px black;
+}
+.detalhes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0px 20px 65px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    width: 700px;
+    height: 50px;
+    background: rgb(225, 225, 225);
+}
+.detalhes:hover{
+    transition: 150ms;
+    background-color: rgb(206, 169, 206);
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(225, 224, 224);
+    text-shadow: 0px 0px 10px black;
+}
+#movie{
+    padding: 15px;
+    margin: auto;
+    display: none;
+}
+#movie.active{
+    display: block;
+    
 }
