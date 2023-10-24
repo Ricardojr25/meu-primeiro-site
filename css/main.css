@@ -219,9 +219,10 @@ body{   /* corpo do texto */
 
 @media (max-width: 500px) {
     .imagem img {
-        width: 320px;
+        width: 400px;
         border-radius: 10px;
         margin-top: 20px;
+        margin-left: 25px;
     }
     .nome{
         font-size: 18px;
@@ -232,6 +233,7 @@ body{   /* corpo do texto */
     }
     .linguagem img{
         width: 250px;
+        margin-left: 20px;
     }
     .subtitulo{
         font-size: 20px;
@@ -239,11 +241,12 @@ body{   /* corpo do texto */
     .detalhes{
         width: 350px;
         height: 50px;
+        margin-left: 30px;
     }
     .rodape{
         width: 360px;
         height: 150px;
-        margin-left: 45px;
+        margin-left: 50px;
     }
     #movie{
         width: 150px;
