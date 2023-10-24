@@ -240,7 +240,7 @@ body{   /* corpo do texto */
     }
     .linguagem img{
         width: 250px;
-        margin-left: 20px;
+        margin-left: 40px;
     }
     .subtitulo{
         font-size: 20px;
@@ -248,14 +248,16 @@ body{   /* corpo do texto */
     .detalhes{
         width: 350px;
         height: 50px;
-        margin-left: 50px;
+        margin-left: 70px;
     }
     .rodape{
         width: 360px;
         height: 150px;
-        margin-left: 50px;
+        margin-left: 55px;
     }
     #movie{
         width: 150px;
     }
 }
+/* */
+@media (min-width 700px) (landscape: )
