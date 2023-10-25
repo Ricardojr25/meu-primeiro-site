@@ -243,21 +243,19 @@ body{   /* corpo do texto */
         margin-left: 40px;
     }
     .subtitulo{
-        font-size: 20px;
+        font-size: 25px;
     }
     .detalhes{
         width: 350px;
         height: 50px;
-        margin-left: 70px;
+        margin-left: 46px;
     }
     .rodape{
         width: 360px;
         height: 150px;
-        margin-left: 55px;
+        margin-left: 50px;
     }
     #movie{
         width: 150px;
     }
 }
-/* */
-@media (min-width 700px) (landscape: )
