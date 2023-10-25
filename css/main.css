@@ -240,16 +240,16 @@ body{   /* corpo do texto */
     }
     .linguagem img{
         width: 250px;
-        margin-left: 45px;
+        margin-left: 63px;
     }
     .subtitulo{
         font-size: 25px;
-        margin-left: 45px;
+        margin-left: 42px;
     }
     .detalhes{
         width: 350px;
         height: 50px;
-        margin-left: 55px;
+        margin-left: 60px;
     }
     .rodape{
         width: 360px;
