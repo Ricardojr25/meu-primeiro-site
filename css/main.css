@@ -229,10 +229,13 @@ body{   /* corpo do texto */
         width: 400px;
         border-radius: 10px;
         margin-top: 20px;
-        margin-left: 42px;
+        margin-left: 40px;
     }
     .nome{
         font-size: 20px;
+    }
+    .redes-sociais{
+        margin-left: 20px;
     }
     .texto {
         width: 300px;
