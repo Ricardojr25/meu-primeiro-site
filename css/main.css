@@ -4,7 +4,7 @@ body{   /* corpo do texto */
     height: 200%;   /* largura */
     display: flex;  /* aonde/como pode ser visualizado */
     justify-content: center;        /* posicionamento */
-    background: linear-gradient(rgb(251, 0, 255), rgb(0, 162, 255));    /* cor do fundo com degrade */
+    background: linear-gradient(rgb(255, 0, 0), rgb(65, 51, 51));    /* cor do fundo com degrade */
     background-repeat: repeat; 
 
 }
@@ -16,7 +16,7 @@ body{   /* corpo do texto */
     width: 600px;   /* tamanho */
     border-radius: 40px;   /* arredondamento da borda */
     margin-top: 30px;   /* distancia entre a imagem e o topo do site */
-    box-shadow: 0px 0px 30px rgb(166, 222, 255);
+    box-shadow: 0px 0px 30px rgb(164, 163, 163);
 }
 .nome {
     margin-top: 30px;   /* distancia entre a imagem e o topo do site */
@@ -42,7 +42,7 @@ body{   /* corpo do texto */
     width: 35px;    /* tamanho */
     border-radius: 35px;    /* arredondamento da borda */
     transition: all 0.3s ease-out;  /* transição */
-    box-shadow: 4px 5px 5px rgb(19, 80, 116);   /* caixa de sombra*/
+    box-shadow: 4px 5px 5px rgba(0, 0, 0);   /* caixa de sombra*/
     margin: 10px;   /* margem */
     overflow: hidden;   /* efeito mascara*/
 }
@@ -54,7 +54,7 @@ body{   /* corpo do texto */
     text-align: center;     /* alinhamento do texto */
     font-size: 20px;    /* tamanho/grossura da fonte */
     border-radius: 30px;    /* arredondamento da borda */
-    background-color: rgb(9, 112, 159);     /* cor do fundo dos ícones */
+    background-color: rgb(255, 123, 0);     /* cor do fundo dos ícones */
     color: rgb(255, 255, 255);  /* cor dos ícones */
     cursor: pointer;
 }
@@ -69,7 +69,7 @@ body{   /* corpo do texto */
 }
 .ícone:hover{
     width: 125px;   /* tamanho */
-    background-color: rgb(0, 162, 255);     /*fundo dos nomes das redes sociais */
+    background-color: rgb(12, 197, 172);     /*fundo dos nomes das redes sociais */
 }
 .texto{ /* texto "sobre mim"*/
     display: flex;
@@ -87,9 +87,9 @@ body{   /* corpo do texto */
     border-radius: 40px 40px 40px 0px;
     padding: 35px 40px 35px 35px;
     color: rgb(255, 255, 255);
-    background: rgb(3, 57, 83);
+    background: rgb(99, 3, 3);
     overflow: hidden;
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 30px rgb(164, 163, 163);
 }
 .sobre-mim{
     position: absolute;
@@ -144,7 +144,7 @@ body{   /* corpo do texto */
     color: rgb(225, 225, 225);
     text-shadow: 5px 5px 5px black;
 }
-.detalhes{
+.informações{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,9 +160,9 @@ body{   /* corpo do texto */
     height: 50px;
     background: rgb(225, 225, 225);
 }
-.detalhes:hover{
+.informações:hover{
     transition: 150ms;
-    background-color: rgb(206, 169, 206);
+    background-color: rgb(233, 95, 95);
 }
 .rodape{
     display: flex;
@@ -244,19 +244,22 @@ body{   /* corpo do texto */
     }
     .subtitulo{
         font-size: 25px;
-        margin-left: 42px;
+        margin-left: 30px;
     }
-    .detalhes{
+    .informações{
         width: 350px;
         height: 50px;
-        margin-left: 60px;
+        margin-left: 65px;
     }
     .rodape{
         width: 360px;
         height: 150px;
-        margin-left: 50px;
+        margin-left: 60x;
     }
     #movie{
         width: 150px;
+    }
+    .nome{
+        margin-left: 50px;
     }
 }
