@@ -126,7 +126,7 @@ body{   /* corpo do texto */
     margin-left: 25px;
     margin-top: 20px;
     margin-bottom: 40px;
-    width: 400px;
+    width: 350px;
     background: rgb(0, 162, 255);
     color: white;
     box-shadow: 0px 0px 7px black;
@@ -191,7 +191,7 @@ body{   /* corpo do texto */
     .imagem img {
         width: 450px;
         border-radius: 20px;
-        margin-top: 20px;
+        margin-top: 30px;
     }
     .nome{
         font-size: 18px;
@@ -237,6 +237,7 @@ body{   /* corpo do texto */
     .texto {
         width: 300px;
         height: 220px;
+        margin-left: 35px;
     }
     .linguagem img{
         width: 250px;
@@ -249,12 +250,12 @@ body{   /* corpo do texto */
     .informações{
         width: 350px;
         height: 50px;
-        margin-left: 65px;
+        margin-left: 80px;
     }
     .rodape{
         width: 360px;
         height: 150px;
-        margin-left: 60x;
+        margin-left: 50px;
     }
     #movie{
         width: 150px;
