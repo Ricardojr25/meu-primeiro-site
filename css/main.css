@@ -234,13 +234,10 @@ body{   /* corpo do texto */
     .nome{
         font-size: 20px;
     }
-    .redes-sociais{
-        margin-left: 20px;
-    }
     .texto {
         width: 300px;
         height: 220px;
-        margin-left: 70px;
+        margin-left: 68px;
     }
     .linguagem img{
         width: 250px;
